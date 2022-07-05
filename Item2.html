@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+   let edad = prompt("Introduce tu edad: ");
+
+if (edad < 0 || edad == 0){
+	alert("Todo es una mentira.");
+}
+
+else if (edad > 0 && edad < 18){
+	alert("Eres menor de edad.");
+}
+
+else if (edad >= 18 && edad < 100){
+	alert("Eres mayor de edad.");
+}
+
+else{
+	alert("¿Seguro que tienes esa edad?");
+}
+    </script>
+</body>
+
+</html>
